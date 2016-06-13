@@ -3,6 +3,8 @@
 //Date:		2016-06-13
 //Desc:		This program is designed to solve Google Code Jam "Alien Language"  I believe I could more easily solve this by constructing regex, but it felt like cheating
 //Problem:	https://code.google.com/codejam/contest/90101/dashboard
+//Results:	Solution works A-small-practice.in:5.207504ms  	A-large-practice.in:689.434726ms
+
 
 package main
 
