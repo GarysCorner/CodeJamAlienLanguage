@@ -1,13 +1,6 @@
 #Problem A. Alien Language
 ##From https://code.google.com/codejam/contest/90101/dashboard
 
-This contest is open for practice. You can try every problem as many times as you like, though we won't keep track of which problems you solve. Read the Quick-Start Guide to get started.
-Small input
-10 points	
-Solve A-small
-Large input
-23 points	
-Solve A-large
 Problem
 
 After years of study, scientists at Google Labs have discovered an alien language transmitted from a faraway planet. The alien language is very unique in that every word consists of exactly L lowercase letters. Also, there are exactly D words in this language.
@@ -30,47 +23,39 @@ where X is the test case number, starting from 1, and K indicates how many words
 Limits
 
 Small dataset
-
+```
 1 ≤ L ≤ 10
 1 ≤ D ≤ 25
 1 ≤ N ≤ 10
+```
 
 Large dataset
-
+```
 1 ≤ L ≤ 15
 1 ≤ D ≤ 5000
 1 ≤ N ≤ 500
+```
 
-Sample
+###Sample
 
-
-###Input
+####Input 
+```
 3 5 4
-
 abc
-
 bca
-
 dac
-
 dbc
-
 cba
-
 (ab)(bc)(ca)
-
 abc
-
 (abc)(abc)(abc)
-
 (zyx)bc
+```
 
-###Output
+####Output 
+```
 Case #1: 2
-
 Case #2: 1
-
 Case #3: 3
-
 Case #4: 0
-
+```
